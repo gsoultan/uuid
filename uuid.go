@@ -59,7 +59,7 @@ type UUID [Size]byte
 const (
 	_  byte = iota
 	V1      // Version 1 (date-time and MAC address)
-	_       // Version 2 (date-time and MAC address, DCE security version) [removed]
+	V2      // Version 2 (date-time and MAC address, DCE security version) [removed]
 	V3      // Version 3 (namespace name-based)
 	V4      // Version 4 (random)
 	V5      // Version 5 (namespace name-based)
